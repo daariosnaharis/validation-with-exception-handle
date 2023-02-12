@@ -1,0 +1,7 @@
+curl --location --request GET 'localhost:8080/test' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "campo1": "asdf",
+    "campo2": "",
+    "document": "12345678901234"
+}'
